@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    app:startDestination="@id/startFragment">
+
+    <fragment
+        android:id="@+id/startFragment"
+        android:name="com.melhit.app.StartFragment"
+        android:label="fragment_start"
+        tools:layout="@layout/fragment_start" />
+    <fragment
+        android:id="@+id/levelsFragment"
+        android:name="com.melhit.app.LevelsFragment"
+        android:label="LevelsFragment" />
+    <fragment
+        android:id="@+id/gameFragment"
+        android:name="com.melhit.app.GameFragment"
+        android:label="GameFragment" />
+    <fragment
+        android:id="@+id/endFragment"
+        android:name="com.melhit.app.EndFragment"
+        android:label="fragment_end"
+        tools:layout="@layout/fragment_end" />
+    <fragment
+        android:id="@+id/winFragment"
+        android:name="com.melhit.app.WinFragment"
+        android:label="fragment_win"
+        tools:layout="@layout/fragment_win" />
+</navigation>
